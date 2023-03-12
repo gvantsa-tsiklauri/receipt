@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: monsterrat;
+    src: url(Montserrat-VariableFont_wght.ttf); 
+}
+body{
+    background: linear-gradient(to right, white, #E8EFFC);
+    display: flex;
+    justify-content: center;
+}
+.receipt1{
+    width: 337px;
+    height: 572px;
+    background-color: white;
+    margin-top: 90px;
+    box-shadow: 40px 40px 40px #E0E8F5;
+    position: relative;
+}
+.imganddate{
+    display: flex;
+}
+.logo-img{
+    width: 39.03px;
+    height: 42.98px;
+    margin-top: 57.02px;
+    margin-left: 64.62px;
+}
+.datediv{
+    margin-top: 71px;
+    margin-left: 86.38px;
+}
+.date{
+    color: #55617D;
+    font-size: 14px;
+    font-family: monsterrat;
+    line-height: 17.07px;
+    font-weight: 400;
+}
+.itemsandprices{
+    display: flex;
+}
+.items{
+    padding-left: 73px;
+    margin-top: 49px;
+    text-align: left;
+    width: 163px;
+}
+.Wagamama, .price1{
+    color: #55617D;
+    font-size: 14px;
+    font-family: monsterrat;
+    line-height: 17.07px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.Pizza-Italia, .price2{
+    color: #55617D;
+    font-size: 14px;
+    font-family: monsterrat;
+    line-height: 17.07px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.Delivery, .price3{
+    color: #55617D;
+    font-size: 14px;
+    font-family: monsterrat;
+    line-height: 17.07px;
+    font-weight: 400;
+}
+.prices{
+    height: 106px;
+    margin-top: 49px;
+    width: 102px;
+    text-align: right;
+}
+.total-price{
+    display: flex;
+    padding-left: 73px;
+    width: auto;
+    height: 193.02px;
+}
+.totaldiv{
+    margin-top: 168.02px;
+}
+.pricediv{
+    margin-left: 94px;
+    margin-top: 152.02px;
+}
+.Total{
+    color: #55617D;
+    font-size: 14px;
+    font-family: monsterrat;
+    line-height: 17.07px;
+    font-weight: 400;
+}
+.price{
+    color: #55617D;
+    font-size: 34px;
+    font-family: monsterrat;
+    line-height: 41.4px;
+    font-weight: 400;
+}
+.csandtyfv{
+    display: flex;
+    padding-left: 73px;
+}
+.vv{
+    margin-left: 52px;
+}
+.costumer, .Track, .v{
+    color: #55617D;
+    font-size: 14px;
+    font-family: monsterrat;
+    line-height: 17.07px;
+    font-weight: 400;
+}
+.red-container{
+    width: 298px;
+    height: 502px;
+    position: relative;
+    margin-top: 107px;
+    background-color: #E3004F;
+    padding-top: 48px;
+    overflow: hidden;
+    left: 20px;
+    z-index: 1;
+}
+.red-title{
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 40.23px;
+    letter-spacing: 1.43px;
+    color: white;
+    font-family: monsterrat;
+}
+.red-text{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    color: white;
+    font-family: monsterrat;
+}
+.shopping-bag-img{
+    position: absolute;
+    margin-top: 170.81px;
+    margin-left: 37px;
+    width: 145.85px;
+    height: 263.19px;
+}
+.bottle-img{
+    position: absolute;
+    margin-top: 80px;
+    width: 109.06px;
+    height: 329px;
+    margin-left: 168.6px;
+}
+.cart-img{
+    position: absolute;
+    margin-top: 253.05px;
+    margin-left: 223.43px;
+}
+.zig-zags{
+    display: flex;
+    position: absolute;
+    left: 3px;
+    bottom: -10px;
+}
+.zdiv{
+    width: 17px;
+    height: 17px;
+    transform: rotate(45deg);
+    background-color: white;
+}
+.zdiv1{
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent; 
+    border-right:11px solid  white; 
+}
